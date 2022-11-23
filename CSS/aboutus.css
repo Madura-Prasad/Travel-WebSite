@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.head {
+    padding-bottom: 50px;
+}
+
+.head img {
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+}
+
+.head .text9 {
+    text-align: center;
+    margin-top: -150px;
+}
+
+.head .text9 h2 {
+    color: #ffba00;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.head .text9 p {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.about {
+    margin-top: 60px;
+    color: white;
+}
+
+.about h3 {
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+    letter-spacing: .5px;
+}
+
+.goal img {
+    margin-top: 30px;
+    width: 100%;
+    height: 250px;
+}
+
+.vision {
+    margin-top: -200px;
+    width: 40%;
+    text-align: center;
+    margin-left: 100px;
+    cursor: pointer;
+    animation: moveleft 1s linear 1;
+    animation-delay: 4s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.vision h2 {
+    color: #ffba00;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.vision p {
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.mission {
+    margin-top: -130px;
+    width: 40%;
+    text-align: center;
+    margin-left: 720px;
+    cursor: pointer;
+    animation: moveright 1s linear 1;
+    animation-delay: 6s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.mission h2 {
+    color: #ffba00;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.mission p {
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+@keyframes moveleft {
+    0% {
+        transform: translateX(200px);
+        visibility: visible;
+    }
+    100% {
+        transform: translateX(0px);
+        visibility: visible;
+    }
+}
+
+@keyframes moveright {
+    0% {
+        transform: translateX(-200px);
+        visibility: visible;
+    }
+    100% {
+        transform: translateX(0px);
+        visibility: visible;
+    }
+}
+
+.trip {
+    margin-top: 100px;
+    color: white;
+}
+
+.trip h1 {
+    margin-left: 500px;
+    color: #ffba00;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+.cat {
+    width: 400px;
+    margin-left: 200px;
+    color: #ffba00;
+    text-align: center;
+}
+
+.txta {
+    cursor: pointer;
+    animation: moveleft 1s linear 1;
+    animation-delay: 8s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.txtb {
+    cursor: pointer;
+    animation: moveright 1s linear 1;
+    animation-delay: 10s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.txtc {
+    cursor: pointer;
+    animation: moveleft 1s linear 1;
+    animation-delay: 12s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.txtd {
+    cursor: pointer;
+    animation: moveright 1s linear 1;
+    animation-delay: 14s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.cat {
+    width: 400px;
+    margin-left: 200px;
+    color: #ffba00;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.cat td h3 {
+    padding-top: 100px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.cat h3 {
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.cat p {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    letter-spacing: .3px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.cat td h3,
+p {
+    padding-top: 5px;
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+    float: left;
+    border-radius: 50%;
+    padding: 20px;
+    transition: .5s linear;
+}
+
+.cat-img {
+    float: right;
+    margin-top: -680px;
+    width: 450px;
+    height: 650px;
+    margin-right: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px #555454;
+}
+
+.hr {
+    width: 1200px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 1px 0 #ffffff;
+    border-radius: 70%;
+    opacity: .5;
+}
+
+.sponser {
+    margin-top: 40px;
+}
+
+.sponser h2 {
+    color: #ffba00;
+    font-size: 35px;
+    text-align: center;
+    font-weight: normal;
+    cursor: pointer;
+    animation: zoomin 1s linear 1;
+    animation-delay: 16s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.sponser-img {
+    margin-top: 20px;
+    width: 90%;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 5px #555454;
+    border-radius: 10px;
+    margin-left: 55px;
+}
+
+.s-img {
+    margin-top: 20px;
+    margin-left: 5px;
+    background: transparent;
+    cursor: pointer;
+    animation: zoomin 1s linear 1;
+    animation-delay: 18s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoomin {
+    0% {
+        transform: scale(0.1);
+        visibility: visible;
+    }
+    100% {
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
+
+/* Float four columns side by side */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+    cursor: pointer;
+    animation: zoomin 1s linear 1;
+    animation-delay: 22s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Style the counter cards */
+
+.card {
+    margin-left: 50px;
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #555454;
+}
+
+.card p,
+h4 {
+    font-family: "Patrick Hand", cursive;
+    font-weight: normal;
+    color: #ffba00;
+}
+
+.fa,
+.fa-smile {
+    font-size: 50px;
+}
+
+.project {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #ffba00;
+    font-weight: 100;
+    font-size: 30px;
+    cursor: pointer;
+    animation: zoomin 1s linear 1;
+    animation-delay: 20s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}

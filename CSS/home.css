@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px 20px;
+}
+
+section video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    object-fit: cover;
+    pointer-events: none;
+    border-radius: 10px;
+}
+
+.head {
+    color: white;
+}
+
+.head h1,
+h3 {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.headimg {
+    width: 25%;
+    margin-left: 510px;
+    margin-top: 5px;
+}
+
+.main3,
+.main4 {
+    letter-spacing: .5px;
+    padding-top: 5px;
+    font-size: 18px;
+    width: 80%;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.more {
+    border: 2px solid #ffba00;
+    background: transparent;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #ffba00;
+    margin-left: 650px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s linear;
+    box-shadow: 5px 5px 5px 5px #555454;
+}
+
+.more:hover {
+    border: 2px solid;
+    box-shadow: 1px 1px 5px 1px #ffba00;
+}
+
+.catergoryimg {
+    width: 100%;
+    height: 650px;
+    padding-top: 30px;
+}
+
+.cater-img {
+    margin-top: 22.5px;
+    width: 400px;
+    height: 250px;
+    margin: 20px 15px;
+    margin-left: 30px;
+    border-radius: 20px;
+    transition: .5s linear;
+}
+
+.table {
+    margin-top: -600px;
+}
+
+.cater-img:hover {
+    box-shadow: 5px 5px 5px 5px #2e2e2e;
+}
+
+.trip {
+    margin-top: 80px;
+    color: white;
+}
+
+.trip h1 {
+    margin-left: 490px;
+    color: #ffba00;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+.trip h2 {
+    margin-left: 520px;
+    font-weight: 100;
+}
+
+.hr {
+    margin-top: 50px;
+}
+
+.cat {
+    width: 400px;
+    margin-left: 200px;
+    color: #ffba00;
+    text-align: center;
+}
+
+.txta {
+    cursor: pointer;
+    animation: movedown 1s linear 1;
+    animation-delay: 6s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.txtb {
+    cursor: pointer;
+    animation: movedown 1s linear 1;
+    animation-delay: 8s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.txtc {
+    cursor: pointer;
+    animation: movedown 1s linear 1;
+    animation-delay: 10s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.txtd {
+    cursor: pointer;
+    animation: movedown 1s linear 1;
+    animation-delay: 12s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes movedown {
+    0% {
+        transform: translateY(100px);
+        visibility: visible;
+    }
+    100% {
+        transform: translateY(0px);
+        visibility: visible;
+    }
+}
+
+.cat td h3 {
+    padding-top: 100px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.cat h3 {
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.cat p {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    letter-spacing: .3px;
+}
+
+.cat td h3,
+p {
+    padding-top: 5px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 50%;
+    padding: 5px;
+    transition: .5s linear;
+    background-color: rgb(255, 255, 255);
+}
+
+.image:hover {
+    background: transparent;
+}
+
+.cat-img {
+    float: right;
+    margin-top: -580px;
+    width: 450px;
+    height: 550px;
+    margin-right: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px #555454;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    background: #6b705c;
+}
+
+
+/* Slides */
+
+.mySlides {
+    margin-top: 20px;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+.mySlides q {
+    color: #fff;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    float: right;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+
+/* The dot/bullet/indicator container */
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #6b705c;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+/* Add a background color to the active dot/circle */
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Add an italic font style to all quotes */
+
+q {
+    font-style: oblique;
+    font-size: 20px;
+}
+
+
+/* Add a blue color to the author */
+
+.author {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.test {
+    margin-top: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+/*rating*/
+
+.checked {
+    color: orange;
+}
